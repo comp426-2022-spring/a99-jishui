@@ -52,3 +52,5 @@ Some basic roles you will want to consider:
 
 You will notice that there are more roles than people in your group.
 That is because you will all be doing a hybrid job of managing a thing while working on other things.
+
+David Pham
