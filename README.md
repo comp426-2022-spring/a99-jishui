@@ -1,9 +1,5 @@
 # Team Jishui COVID-19 Information Dashboard
 
-## UPDATE
-
-You don't need to accept this assignment since you are already assigned to teams. So, there is not assignment invite link for a99.
-
 ## Summary 
 
 COMP426 final project template repository.
@@ -14,6 +10,17 @@ You will change everything below to be the main technical documentation, as outl
 
 The goal of this project is to develop an informational dashboard to display statistics and data about COVID-19 and its impacts in the United States. 
 We used React to develop our application and data from [insert data source here].
+
+## How To Use
+
+Insert general info about the functionality of our app.
+
+## Developers
+
+We can link our GitHub accounts here later.
+
+
+**Left this stuff for reference.**
 
 ## First steps
 
@@ -28,29 +35,3 @@ Other steps that you will need to take after your team has accepted the assignme
 8. Then put your entire development workflow in this repository.
 9. Use **Pull requests** to propose changes and incorporate them into your code from various team members. 
 10. Use **Issues** to identify and track bugs and also to communicate about various aspects of the project.
-
-## Team mangement
-
-Plan to meet with your team ASAP.
-Talk through identifying roles within your team.
-
-Try to figure out what each of you are good at/enjoy doing and try to work out roles that incorporate that.
-
-Some basic roles you will want to consider:
-
-1. A review manager - someone to review pull requests and merge or reject them and manage the related discussions
-2. A plan manager - someone to keep an eye on the overall plan and keep the project tab/to-do list up to date
-3. A documentation manager - someone to keep the documentation in order and identify what is missing and needs to be documented
-4. A release manager - someone to manage the packaging and release process for your prototype package
-5. A project manager - someone keeping track of all the moving parts and make sure that everything that needs to happen is happening.
-5. Roles for team members to take charge or different parts of the project. Possible roles:
-    1. Front end lead
-    2. Back end lead
-    3. Database lead
-    4. Design lead
-    5. Etc.
-
-You will notice that there are more roles than people in your group.
-That is because you will all be doing a hybrid job of managing a thing while working on other things.
-
-David Pham
