@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import Data from './datainfo'
 import { FormControl, InputLabel, MenuItem, Select,} from "@mui/material"
 
 function App() {
@@ -21,6 +22,18 @@ function App() {
 
           </Select>
         </FormControl>
+      </div>
+
+      <div className="data_statistics">
+        <Data title="Coronavirus Cases" cases={123} total={2000}></Data>
+
+        <Data title="Hospitalized" cases={123} total={3000}></Data>
+
+        <Data title="Vaccinated" cases={123} total={3000}></Data>
+
+        <Data title="Deaths" cases={123} total={500}></Data>
+
+        
       </div>
 
     </div></>
