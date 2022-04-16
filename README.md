@@ -12,7 +12,7 @@ Change this text to be a brief description of your final project.
 Put the name of your project in the header above.
 You will change everything below to be the main technical documentation, as outlined below.
 
-The goal of this project is to develop an informational dashboard to display statistics and data about COVID-19 and its impacts [insert scope here]. 
+The goal of this project is to develop an informational dashboard to display statistics and data about COVID-19 and its impacts in the United States. 
 We used React to develop our application and data from [insert data source here].
 
 ## First steps
