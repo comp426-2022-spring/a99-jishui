@@ -3,6 +3,7 @@ import './App.css';
 import React from 'react';
 import Data from './datainfo'
 import { FormControl, InputLabel, MenuItem, Select,} from "@mui/material"
+import Graph from "./graph"
 
 function App() {
   return (
