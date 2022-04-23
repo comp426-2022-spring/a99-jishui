@@ -59,7 +59,7 @@ class App extends Component {
     
             <Data title="Recovered" cases={items.recovered} total={items.recovered}></Data>
     
-            <Data title="Vaccinated" cases={items.active} total={items.active}></Data>
+            <Data title="Active Cases" cases={items.active} total={items.active}></Data>
     
             <Data title="Deaths" cases={items.deaths} total={items.deaths}></Data>
     
