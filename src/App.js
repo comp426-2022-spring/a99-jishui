@@ -55,13 +55,13 @@ class App extends Component {
           </div>
     
           <div className="data_statistics">
-            <Data title="Coronavirus Cases" cases={123} total={items.deaths}></Data>
+            <Data title="Coronavirus Cases" cases={items.cases} total={items.cases}></Data>
     
-            <Data title="Hospitalized" cases={123} total={3000}></Data>
+            <Data title="Recovered" cases={items.recovered} total={items.recovered}></Data>
     
-            <Data title="Vaccinated" cases={123} total={3000}></Data>
+            <Data title="Vaccinated" cases={items.active} total={items.active}></Data>
     
-            <Data title="Deaths" cases={123} total={500}></Data>
+            <Data title="Deaths" cases={items.deaths} total={items.deaths}></Data>
     
             
           </div>
