@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Data from './datainfo'
+import { FormControl, InputLabel, MenuItem, Select,} from "@mui/material"
+//import Graph from "./graph"
 
 class App extends Component {
 
@@ -29,11 +32,39 @@ class App extends Component {
     }
     else {
       return (
-        <div className="App">
-          <ul>
-            Country: {items.country} | Cases today: {items.todayCases}
-          </ul>
-        </div>
+        <><div className="app">
+          <div className="head">
+            <h1>COVID-19 DASHBOARD</h1>
+    
+            
+            <FormControl className="dropdown_menu" fullWidth>
+              <InputLabel id="label_select">Select Option</InputLabel>
+              <Select variant="outlined">
+                <MenuItem value="current_cases">Current Cases</MenuItem>
+                <MenuItem value="deaths">Total Deaths</MenuItem>
+                <MenuItem value="vaccinated">Total Vaccinated</MenuItem>
+                <MenuItem value="hospitalized">Total Hospitalized</MenuItem>
+    
+    
+              </Select>
+            </FormControl>
+          </div>
+    
+          <div className="data_statistics">
+            <Data title="Coronavirus Cases" cases={123} total={items.deaths}></Data>
+    
+            <Data title="Hospitalized" cases={123} total={3000}></Data>
+    
+            <Data title="Vaccinated" cases={123} total={3000}></Data>
+    
+            <Data title="Deaths" cases={123} total={500}></Data>
+    
+            
+          </div>
+    
+        </div></>
+    
+    
       );
     }
   }
