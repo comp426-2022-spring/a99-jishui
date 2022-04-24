@@ -50,6 +50,8 @@ class App extends Component {
             </FormControl>
           </div>
     
+          <a href = "https://github.com/comp426-2022-spring/a99-jishui/blob/main/src/login.html">LOGIN</a>
+
           <div className="data_statistics">
             <Data title="Coronavirus Cases" cases={123} total={items.deaths}></Data>
     
