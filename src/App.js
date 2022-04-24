@@ -1,11 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
+import ReactDOM from 'react-dom'
 // import React from 'react';
 import Data from './datainfo'
-import { FormControl, InputLabel, MenuItem, Select,} from "@mui/material"
-import Graph from "./graph"
+import { FormControl, InputLabel, MenuItem, Select, Card, CardContent} from "@mui/material"
+import LineGraph from "./graph.js"
 import React, { Component } from 'react';
 
+//ReactDOM.render(<Graph />, document.getElementById('root'))
 
 class App extends Component {
 
@@ -28,6 +30,8 @@ class App extends Component {
       });
   } 
 
+  
+
   render() {
     var{ isLoaded, items } = this.state;
 
@@ -36,7 +40,9 @@ class App extends Component {
     }
     else {
       return (
-        <><div className="app">
+        <>
+
+        <div className="app">
           <div className="head">
             <h1>COVID-19 DASHBOARD</h1>
     
@@ -65,6 +71,14 @@ class App extends Component {
     
             
           </div>
+
+          
+          
+          <Card className="label_name">
+            <CardContent>
+              
+            </CardContent>
+          </Card>
     
         </div></>
     
