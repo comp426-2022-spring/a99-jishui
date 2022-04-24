@@ -1,13 +1,9 @@
-// import logo from './logo.svg';
 import './App.css';
-import ReactDOM from 'react-dom'
-// import React from 'react';
 import Data from './datainfo'
 import { FormControl, InputLabel, MenuItem, Select, Card, CardContent} from "@mui/material"
 import LineGraph from "./graph.js"
 import React, { Component } from 'react';
 
-//ReactDOM.render(<Graph />, document.getElementById('root'))
 
 class App extends Component {
 
@@ -59,7 +55,9 @@ class App extends Component {
               </Select>
             </FormControl>
           </div>
-    
+
+          
+
           <div className="data_statistics">
             <Data title="Coronavirus Cases" cases={items.cases} total={items.cases}></Data>
     
@@ -74,11 +72,7 @@ class App extends Component {
 
           
           
-          <Card className="label_name">
-            <CardContent>
-              
-            </CardContent>
-          </Card>
+          
     
         </div></>
     
