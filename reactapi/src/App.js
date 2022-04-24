@@ -53,7 +53,7 @@ class App extends Component {
           <div className="data_statistics">
             <Data title="Coronavirus Cases" cases={123} total={items.deaths}></Data>
     
-            <Data title="Hospitalized" cases={123} total={3000}></Data>
+            <Data title="Hospitalized" cases={123} total={items}></Data>
     
             <Data title="Vaccinated" cases={123} total={3000}></Data>
     
@@ -63,7 +63,6 @@ class App extends Component {
           </div>
     
         </div></>
-    
     
       );
     }

@@ -1,6 +1,4 @@
-// import logo from './logo.svg';
 import './App.css';
-// import React from 'react';
 import Data from './datainfo'
 import { FormControl, InputLabel, MenuItem, Select,} from "@mui/material"
 import Graph from "./graph"
@@ -53,7 +51,9 @@ class App extends Component {
               </Select>
             </FormControl>
           </div>
-    
+
+          <a href = "https://comp426-2022-spring.github.io/a99-jishui/src/login.html">LOGIN</a>
+
           <div className="data_statistics">
             <Data title="Coronavirus Cases" cases={items.cases} total={items.cases}></Data>
     
