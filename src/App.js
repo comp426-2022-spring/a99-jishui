@@ -12,10 +12,10 @@ function App() {
     
       <div className="head">
 
-      <div className="loginBox">
-        <a href="/login.html">Log In</a>
-        <a href="/signup.html">Sign Up</a>
-      </div>
+        <div className="loginBox">
+          <a href="/login.html">Log In</a>
+          <a href="/signup.html">Sign Up</a>
+        </div>
 
         <div className="box2">     
           <FormControl className="dropdown_menu">
