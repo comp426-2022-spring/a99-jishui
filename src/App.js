@@ -1,4 +1,6 @@
+// import logo from './logo.svg';
 import './App.css';
+// import React from 'react';
 import Data from './datainfo'
 import { FormControl, InputLabel, MenuItem, Select, Card, CardContent} from "@mui/material"
 import LineGraph from "./graph.js"
@@ -36,27 +38,32 @@ class App extends Component {
     }
     else {
       return (
-        <>
+        
 
-        <div className="app">
-          <div className="head">
-            <h1>COVID-19 DASHBOARD</h1>
-    
-            
-            <FormControl className="dropdown_menu" fullWidth>
-              <InputLabel id="label_select">Select Option</InputLabel>
-              <Select variant="outlined">
-                <MenuItem value="current_cases">Current Cases</MenuItem>
-                <MenuItem value="deaths">Total Deaths</MenuItem>
-                <MenuItem value="vaccinated">Total Vaccinated</MenuItem>
-                <MenuItem value="hospitalized">Total Hospitalized</MenuItem>
-    
-    
-              </Select>
-            </FormControl>
-          </div>
+    <div className="app">
+      <div className="head">
+        <h1>COVID-19 DASHBOARD</h1>
 
-          
+        <div className="loginBox">
+          <a href="/login.html">Log In</a>
+          <a href="/signup.html">Sign Up</a>
+        </div>
+
+        <div className="box2">     
+          <FormControl className="dropdown_menu">
+            <InputLabel id="label_select">Select Option</InputLabel>
+            <Select variant="outlined">
+              <MenuItem value="current_cases">Current Cases</MenuItem>
+              <MenuItem value="deaths">Total Deaths</MenuItem>
+              <MenuItem value="vaccinated">Total Vaccinated</MenuItem>
+              <MenuItem value="hospitalized">Total Hospitalized</MenuItem>
+
+
+            </Select>
+          </FormControl>
+
+        </div>
+      </div>
 
           <div className="data_statistics">
             <Data title="Coronavirus Cases" cases={items.cases} total={items.cases}></Data>
@@ -70,12 +77,15 @@ class App extends Component {
             
           </div>
     
-        </div></>
+        </div>
+        
     
     
       );
     }
   }
 }
+
+
 
 export default App;
