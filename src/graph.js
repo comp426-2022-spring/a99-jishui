@@ -1,101 +1,45 @@
 import React, {useState, useEffect } from "react";
 
 import { Line } from "react-chartjs-2"
-import numeral from "numeral"
 
-const options = {
-    legend: {
-      display: false,
-    },
-    elements: {
-      point: {
-        radius: 0,
-      },
-    },
-    maintainAspectRatio: false,
-    tooltips: {
-      mode: "index",
-      intersect: false,
-      callbacks: {
-        label: function (tooltipItem, data) {
-          return numeral(tooltipItem.value).format("+0,0");
-        },
-      },
-    },
-    scales: {
-      xAxes: [
-        {
-          type: "time",
-          time: {
-            format: "MM/DD/YY",
-            tooltipFormat: "ll",
-          },
-        },
-      ],
-      yAxes: [
-        {
-          gridLines: {
-            display: false,
-          },
-          ticks: {
-            // Include a dollar sign in the ticks
-            callback: function (value, index, values) {
-              return numeral(value).format("0a");
-            },
-          },
-        },
-      ],
-    },
-  };
+const Graph = () => {
+  const [chartData, setChartData] = useState({});
+  // const [employeeSalary, setEmployeeSalary] = useState([]);
+  // const [employeeAge, setEmployeeAge] = useState([]);
 
-function Graph({ casesType }) {
-  const [data, setData] = useState({});
+  const chart = () => {
+    setChartData({
+      labels : ['monday', 'tuesday', 'wed','thursday', 'friday'],
+      datasets: [
+      {
+        label: "Dates",
+        data: [32, 45, 67, 98, 45],
+        backgroundColor: ['rgba(75, 192, 192, 0.6)'],
+        borderWidth: 4,
 
-  const graphDevelop = (data, casesType) => {
-    let graphData = [];
-    let last;
-    for (let date in data.cases) {
-      if (last) {
-        let inputPoint = {
-          x: date,
-          y: data[casesType][date] - last,
-        };
-        graphData.push(inputPoint);
       }
-      last = data[casesType][date];
-    }
-    return graphData;
-  };
-
-  useEffect(() => {
-    fetch("https://disease.sh/v3/covid-19/historical/all?lastdays=120").then(response => response.json()).then(data => {
-
-        console.log(data)
-        const finalData = graphDevelop(data)
-        setData(finalData)
-    })
-
-  }, [])
-
-  
-  return (
-    <div>
-      {data?.length > 0 && (
-        <Line
-          data={{
-            datasets: [
-              {
-                backgroundColor: "rgba(204, 16, 52, 0.5)",
-                borderColor: "#CC1034",
-                data: data,
-              },
-            ],
-          }}
-          options={options}
-        />
-      )}
-    </div>
-  );
+    ],
+  })
 }
+  useEffect(() => {
+    chart()
+  }, [])
+    
+  return(
+    // <div>
+    //   <h1>I am a graph</h1>
+    // </div>
+    <div>
+      <h1>Dankmemes</h1>
+      <div style={{height: "500px"}}>
+      <Line data={chartData} />
+
+
+      </div>
+    </div>
+  )
+}
+
+
 
 export default Graph;

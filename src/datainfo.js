@@ -10,9 +10,7 @@ function Data({ title, cases, total }){
 
             <h2 className="Cases">Total Reported: {cases}</h2>
 
-            {/* <Typography className="datatotal" color="textSecondary">
-                Total: {total}
-            </Typography> */}
+            
         </Card>
     )
 }
