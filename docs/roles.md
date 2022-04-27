@@ -1,10 +1,16 @@
-## Roles:
-David Pham - Backend Developer 
+## David Pham - Backend Developer
+Focused work on backend design:
+  1. 
 
-Ferras Dahnoun - Frontend Developer
 
-Stephen Zheng - Full-Stack Developer
+## Ferras Dahnoun - Frontend Developer
+Focused work on frontend design:
 
-Saketh Devareddy - Frontend Developer
+## Stephen Zheng - Full-Stack Developer
+Worked on both frontend and backend:
 
-Matthew Brightman - Backend Developer
+## Saketh Devareddy - Frontend Developer
+Focused work on frontend design:
+
+## Matthew Brightman - Backend Developer
+Focused work on backend design:
