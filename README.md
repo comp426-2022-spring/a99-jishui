@@ -14,6 +14,8 @@ You can also make an account!
 
 ## Documentation
 
+Add documentation links here
+
 ## Developers
 
 We can link our GitHub accounts here later.
