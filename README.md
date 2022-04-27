@@ -2,11 +2,7 @@
 
 ## Summary 
 
-COMP426 final project template repository.
-All your code and documentation goes here.
-Change this text to be a brief description of your final project.
-Put the name of your project in the header above.
-You will change everything below to be the main technical documentation, as outlined below.
+Our Covid-19 information dashboard is a web application that shows general Covid-19 data for the entirety of the United States, which includes number of cases, recovered, deaths, etc. The website also has graphs that will reflect different parts of the data.
 
 The goal of this project is to develop an informational dashboard to display statistics and data about COVID-19 and its impacts in the United States. 
 We used React to develop our application and data from https://apidocs.covidactnow.org/.
