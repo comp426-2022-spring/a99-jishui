@@ -21,6 +21,14 @@ You will also have the option to make an account!
 
 ## Developers
 
+Developed by:
+
+- David Pham
+- Ferras Dahnoun
+- Stephen Zheng
+- Saketh Devareddy
+- Matthew Brightman
+
 We can link our GitHub accounts here later.
 
 
