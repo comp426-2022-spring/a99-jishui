@@ -11,7 +11,6 @@ To start the website, please use `npm start`, which will open up the app on on y
 From there you will be able to see all of the available Covid-19 data.
 You can also make an account!
 
-Insert general info about the functionality of our app.
 
 ## Developers
 
