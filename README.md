@@ -11,7 +11,7 @@ The website also has graphs that will reflect different parts of the data.
 
 To start the website, please use `npm start` in a terminal, which will open up the app on on your local host. 
 From there you will be able to see all of the available Covid-19 data.
-You can also make an account!
+You will also have the option to make an account!
 
 
 ## Documentation
