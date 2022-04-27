@@ -7,10 +7,12 @@ Our Covid-19 information dashboard is a web application that shows general Covid
 
 ## How To Use
 
-To start the website, please use `npm start`, which will open up the app on on your local host. 
+To start the website, please use `npm start` in a terminal, which will open up the app on on your local host. 
 From there you will be able to see all of the available Covid-19 data.
 You can also make an account!
 
+
+## Documentation
 
 ## Developers
 
