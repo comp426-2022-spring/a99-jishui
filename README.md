@@ -1,6 +1,6 @@
 # Team Jishui COVID-19 Information Dashboard
 
-## Summary 
+## Dashboard Overview
 
 Our Covid-19 information dashboard is a web application that shows general Covid-19 data for the entirety of the United States.
 Includes number of cases, recovered, deaths, etc. 
@@ -16,7 +16,8 @@ You will also have the option to make an account!
 
 ## Documentation
 
-Add documentation links here
+[Group Roles](https://github.com/comp426-2022-spring/a99-jishui/blob/main/docs/roles.md)
+[Planning Notes](https://github.com/comp426-2022-spring/a99-jishui/blob/main/docs/planning.md)
 
 ## Developers
 
