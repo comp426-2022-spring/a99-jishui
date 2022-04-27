@@ -1,6 +1,6 @@
 ## David Pham - Backend Developer
 Focused work on backend design:
-  1. 
+  1. Worked on combining frontend with backend Covid-19 API data
 
 
 ## Ferras Dahnoun - Frontend Developer
