@@ -16,8 +16,8 @@ You will also have the option to make an account!
 
 ## Documentation
 
-[Group Roles](https://github.com/comp426-2022-spring/a99-jishui/blob/main/docs/roles.md)
-[Planning Notes](https://github.com/comp426-2022-spring/a99-jishui/blob/main/docs/planning.md)
+- [Group Roles](https://github.com/comp426-2022-spring/a99-jishui/blob/main/docs/roles.md)
+- [Planning Notes](https://github.com/comp426-2022-spring/a99-jishui/blob/main/docs/planning.md)
 
 ## Developers
 
