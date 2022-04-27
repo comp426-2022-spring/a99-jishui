@@ -4,10 +4,12 @@
 
 Our Covid-19 information dashboard is a web application that shows general Covid-19 data for the entirety of the United States, which includes number of cases, recovered, deaths, etc. The website also has graphs that will reflect different parts of the data.
 
-The goal of this project is to develop an informational dashboard to display statistics and data about COVID-19 and its impacts in the United States. 
-We used React to develop our application and data from https://apidocs.covidactnow.org/.
 
 ## How To Use
+
+To start the website, please use `npm start`, which will open up the app on on your local host. 
+From there you will be able to see all of the available Covid-19 data.
+You can also make an account!
 
 Insert general info about the functionality of our app.
 
