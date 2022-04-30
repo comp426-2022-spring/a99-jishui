@@ -5,6 +5,7 @@ import { FormControl, InputLabel, MenuItem, Select,} from "@mui/material"
 
 class App extends Component {
 
+
   constructor(props) {
     super(props);
     this.state = {
@@ -49,11 +50,15 @@ class App extends Component {
               </Select>
             </FormControl>
           </div>
+
+
     
-          <div className="data_statistics">
+          <a href = "https://github.com/comp426-2022-spring/a99-jishui/blob/main/src/login.html">LOGIN</a>
+
+          <div className="data_statistics ">
             <Data title="Coronavirus Cases" cases={123} total={items.deaths}></Data>
     
-            <Data title="Hospitalized" cases={123} total={3000}></Data>
+            <Data title="Hospitalized" cases={123} total={items}></Data>
     
             <Data title="Vaccinated" cases={123} total={3000}></Data>
     
@@ -61,9 +66,10 @@ class App extends Component {
     
             
           </div>
-    
         </div></>
-    
+
+        
+        
     
       );
     }
