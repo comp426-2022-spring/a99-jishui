@@ -15,6 +15,10 @@
     Status updates - Backend working on fetching more data and creating usable data, Frontend working on the Home Page.
 
  - **6th Meeting: April 23rd, 2022**\
-    
+    Worked on minor changes to the Frontend and Backend and created a schedule for the End of Semester.
 
  - **7th Meeting: April 24th, 2022**\
+    Added Login/Signup pages. Created data boxes on Home Page. Created database for Login/Signup data.
+
+ - **8th Meeting: April 30th, 2022**\
+    Finishing touches! Updated the Home Page and worked on linking the Login Frontend to the Backend. Also edited and created documentation and beautified our application.
