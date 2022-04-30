@@ -61,7 +61,7 @@ p {
   font-family: Arvo;
 }
 
-.data_statistics {
+.data_statistics{
   display: flex;
   justify-content: space-between;
   text-align: center;
