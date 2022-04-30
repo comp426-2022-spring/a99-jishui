@@ -24,8 +24,8 @@ You can also create an account using our Login and Signup pages!
 
 ## Acknowledgements
 
-[disease.sh](https://disease.sh/)
-John D. Martin III
+- [disease.sh](https://disease.sh/)
+- John D. Martin III
 
 ## Developers
 
