@@ -49,17 +49,6 @@ class App extends Component {
               <a href="/signup.html">Sign Up</a>
             </div>
 
-            <div className="box2">
-              <FormControl className="dropdown_menu">
-                <InputLabel id="label_select">Select Option</InputLabel>
-                <Select variant="outlined">
-                  <MenuItem value="current_cases">Current Cases</MenuItem>
-                  <MenuItem value="deaths">Total Deaths</MenuItem>
-                  <MenuItem value="vaccinated">Total Vaccinated</MenuItem>
-                  <MenuItem value="hospitalized">Total Hospitalized</MenuItem>
-                </Select>
-              </FormControl>
-            </div>
           </div>
 
           <div className="data_statistics">
