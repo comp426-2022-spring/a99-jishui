@@ -5,10 +5,7 @@ import {
   InputLabel,
   MenuItem,
   Select,
-  Card,
-  CardContent,
 } from "@mui/material";
-import LineGraph from "./graph.js";
 import React, { Component } from "react";
 import BarChart from "./components/BarChart";
 import LineChart from "./components/LineChart";
