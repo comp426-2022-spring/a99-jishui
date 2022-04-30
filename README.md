@@ -23,8 +23,8 @@ You will also have the option to make an account!
 
 Developed by:
 
-- David Pham
-- Ferras Dahnoun
+- David Pham    -   [davpham](https://github.com/davpham)
+- Ferras Dahnoun    -   [fdahnoun](https://github.com/fdahnoun)
 - Stephen Zheng
 - Saketh Devareddy
 - Matthew Brightman
