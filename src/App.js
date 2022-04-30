@@ -62,6 +62,9 @@ class App extends Component {
             </div>
           </div>
 
+          <br />
+          <br />
+
           <div className="data_statistics">
             <Data
               title="Coronavirus Cases"
@@ -88,7 +91,9 @@ class App extends Component {
             ></Data>
           </div>
 
-          
+          <br />
+          <br />
+
           <div className="charts">
             <BarChart data={information}/>
             <LineChart/>
