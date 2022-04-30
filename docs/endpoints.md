@@ -12,4 +12,4 @@
 
 ## /login
 
-- The actual endpoint that users gog to to login or register for an account, not currently linked with our login and signup pages. Will be implemented in the future!
+- The actual endpoint that users go to login or register for an account, not currently linked with our login and signup pages. Will be implemented in the future!
