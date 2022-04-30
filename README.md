@@ -2,7 +2,7 @@
 
 ## Dashboard Overview
 
-Our Covid-19 information dashboard is a web application that shows general Covid-19 data for the entirety of the United States.
+Our COVID-19 information dashboard is a web application that shows general COVID-19 data for the entirety of the United States.
 Includes number of cases, recovered, deaths, etc. 
 The website also has graphs that will reflect different parts of the data.
 
