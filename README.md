@@ -18,15 +18,6 @@ You can also create an account using our Login and Signup pages!
 - [Group Roles](https://github.com/comp426-2022-spring/a99-jishui/blob/main/docs/roles.md)
 - [Planning Notes](https://github.com/comp426-2022-spring/a99-jishui/blob/main/docs/planning.md)
 
-## Developers
-
-Developed by:
-
-- David Pham    -   [davpham](https://github.com/davpham)
-- Ferras Dahnoun    -   [fdahnoun](https://github.com/fdahnoun)
-- Stephen Zheng     -   [stzheng7](https://github.com/stzheng7)
-- Saketh Devareddy      -   [SakDev](https://github.com/SakDev)
-- Matthew Brightman     -   [mbrightman](https://github.com/mbrightman)
 
 ## Dependency List
 
@@ -48,6 +39,25 @@ react-dom | 18.0.0
 react-helmet | 6.1.0
 react-scripts | 5.0.1
 web-vitals | 2.1.4
+
+
+## Future Plans
+
+
+## Acknowledgements
+
+[disease.sh](https://disease.sh/)
+John D. Martin III
+
+## Developers
+
+Developed by:
+
+- David Pham    -   [davpham](https://github.com/davpham)
+- Ferras Dahnoun    -   [fdahnoun](https://github.com/fdahnoun)
+- Stephen Zheng     -   [stzheng7](https://github.com/stzheng7)
+- Saketh Devareddy      -   [SakDev](https://github.com/SakDev)
+- Matthew Brightman     -   [mbrightman](https://github.com/mbrightman)
 
 
 ## First steps

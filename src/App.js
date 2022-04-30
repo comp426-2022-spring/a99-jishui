@@ -9,8 +9,8 @@ import {
 import React, { Component } from "react";
 import BarChart from "./components/BarChart";
 import LineChart from "./components/LineChart";
-import PieChart from "./components/PieChart";
-
+import Log from "./components/Log";
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 
 class App extends Component {
   constructor(props) {
@@ -45,10 +45,13 @@ class App extends Component {
           <div className="head">
             <h1>US COVID-19 DASHBOARD</h1>
 
-            <div className="loginBox">
-              <a href="/login.html">Log In</a>
-              <a href="/signup.html">Sign Up</a>
-            </div>
+          <Router>
+            <Link to="/login" element={<Log/>}>Login</Link>
+            <Routes>
+                  <Route path="/login" element={<Log/>}/>
+            </Routes>
+            
+          </Router>
 
           </div>
 
@@ -82,7 +85,7 @@ class App extends Component {
           
           <div className="charts">
             <BarChart data={information}/>
-            <PieChart/>
+            <LineChart/>
           </div>
 
 
