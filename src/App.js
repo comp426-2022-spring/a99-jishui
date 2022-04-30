@@ -53,7 +53,7 @@ class App extends Component {
               </Select>
             </FormControl>
           </div>
-    
+
           <div className="data_statistics">
             <Data title="Coronavirus Cases" cases={items.cases} total={items.cases}></Data>
     
