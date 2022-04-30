@@ -2,7 +2,7 @@
 
 ## Dashboard Overview
 
-Our Covid-19 information dashboard is a web application that shows general Covid-19 data for the entirety of the United States.
+Our COVID-19 information dashboard is a web application that shows general COVID-19 data for the entirety of the United States.
 Includes number of cases, recovered, deaths, etc. 
 The website also has graphs that will reflect different parts of the data.
 
@@ -10,7 +10,7 @@ The website also has graphs that will reflect different parts of the data.
 ## How To Use
 
 To start the website, please use `npm start` in a terminal, which will open up the app on on your local host. 
-From there you will be able to see all of the available Covid-19 data.
+From there you will be able to see all of the available COVID-19 data.
 You will also have the option to make an account!
 
 
@@ -25,14 +25,9 @@ Developed by:
 
 - David Pham    -   [davpham](https://github.com/davpham)
 - Ferras Dahnoun    -   [fdahnoun](https://github.com/fdahnoun)
-- Stephen Zheng
-- Saketh Devareddy
-- Matthew Brightman
-
-We can link our GitHub accounts here later.
-
-
-**Left this stuff for reference.**
+- Stephen Zheng     -   [stzheng7](https://github.com/stzheng7)
+- Saketh Devareddy      -   [SakDev](https://github.com/SakDev)
+- Matthew Brightman     -   [mbrightman](https://github.com/mbrightman)
 
 ## First steps
 
