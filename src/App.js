@@ -45,13 +45,7 @@ class App extends Component {
           <div className="head">
             <h1>US COVID-19 DASHBOARD</h1>
 
-          <Router>
-            <Link to="/login" element={<Log/>}>Login</Link>
-            <Routes>
-                  <Route path="/login" element={<Log/>}/>
-            </Routes>
-            
-          </Router>
+
 
           </div>
 
@@ -88,6 +82,13 @@ class App extends Component {
             <LineChart/>
           </div>
 
+          <Router>
+            <Link to="/login" element={<Log/>}>Login</Link>
+            <Routes>
+                  <Route path="/login" element={<Log/>}/>
+            </Routes>
+            
+          </Router>
 
         </div>
       );
