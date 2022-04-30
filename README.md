@@ -29,7 +29,7 @@ You can also create an account using our Login and Signup pages (Currently a wor
 
 ## Acknowledgements
 
-- [disease.sh](https://disease.sh/)\
+- [disease.sh](https://disease.sh/)
 - John D. Martin III
 
 
