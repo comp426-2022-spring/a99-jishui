@@ -27,7 +27,7 @@ Developed by:
 - Ferras Dahnoun    -   [fdahnoun](https://github.com/fdahnoun)
 - Stephen Zheng
 - Saketh Devareddy
-- Matthew Brightman
+- Matthew Brightman     -   [mbrightman](https://github.com/mbrightman)
 
 We can link our GitHub accounts here later.
 
