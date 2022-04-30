@@ -5,10 +5,7 @@ import {
   InputLabel,
   MenuItem,
   Select,
-  Card,
-  CardContent,
 } from "@mui/material";
-import LineGraph from "./graph.js";
 import React, { Component } from "react";
 import BarChart from "./components/BarChart";
 import LineChart from "./components/LineChart";
@@ -45,7 +42,7 @@ class App extends Component {
       return (
         <div className="app">
           <div className="head">
-            <h1>COVID-19 DASHBOARD</h1>
+            <h1>US COVID-19 DASHBOARD</h1>
 
             <div className="loginBox">
               <a href="/login.html">Log In</a>
