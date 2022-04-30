@@ -40,7 +40,7 @@ class App extends Component {
             <h1>US COVID-19 DASHBOARD</h1>
 
             <div className="loginBox">
-              <a href="/login.html">Log In</a>
+              <a className="loginButton" href="/login.html">Log In</a>
               <a href="/signup.html">Sign Up</a>
             </div>
 
