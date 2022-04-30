@@ -1,7 +1,7 @@
 ## David Pham - Backend Developer
 Focused work on backend design:
   1. Worked on combining frontend with backend Covid-19 API data.
-  2. Immplemented graphs on main page
+  2. Implemented graphs on main page
   3. Created documentation and planning notes.
 
 
