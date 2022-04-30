@@ -1,3 +1,4 @@
+import "./datainfo.css";
 import React from 'react'
 import { Card, CardContent, Typography, } from "@mui/material"
 
@@ -9,8 +10,6 @@ function Data({ title, cases, total }){
             </CardContent>
 
             <h2 className="Cases">{cases}</h2>
-
-            
         </Card>
     )
 }

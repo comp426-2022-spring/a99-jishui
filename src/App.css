@@ -2,17 +2,41 @@
   margin: 0;
 }
 
+.app {
+  font-family: Arvo;
+}
+
 .head {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
   justify-content: space-between;
   flex-direction: row;
-
+  font-family: Arvo;
 }
 
+h1 { 
+  font-family: Arvo; 
+  font-size: 64px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 35.2px; 
+}
+
+  
+p {
+  font-family: Arvo;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+} 
+
 .loginBox{
-  display:flex
+  display:flex;
+  font-family: Arvo;
 }
 
 .box2 {
@@ -20,29 +44,28 @@
   /* flex-direction: row; */
 }
 
-.dropdown_menu {
-  /* display: flex; */
-  width: 200px;
-}
-
 .charts{
   display:flex;
   height: 600px;
   justify-content: space-between;
+  font-family: Arvo;
 }
 
 .BarChart{
   width: 1000px;
+  font-family: Arvo;
 }
 
 .PieChart{
   width: 600px;
+  font-family: Arvo;
 }
 
-.data_statistics {
+.data_statistics{
   display: flex;
   justify-content: space-between;
   text-align: center;
+  font-family: Arvo;
 }
 
 body{
