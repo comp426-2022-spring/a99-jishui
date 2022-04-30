@@ -11,14 +11,14 @@ class PieChart extends React.Component{
   render(){
 
     const data = {
-      labels: ["year ago", "month", "week", "current"],
+      labels: ["Recovered Today", "Deaths Today"],
       datasets: [
         {
           label: "true",
-          backgroundColor: "rgba(75,192,192,1)",
+          backgroundColor: ["rgba(75,192,192,1)", "rgba(255,0,0,1)"],
           borderColor: "rgba(0,0,0,1)",
           borderWidth: 2,
-          data: [100, 500, 400, 1000],
+          data: [this.props.data.todayRecovered, this.props.data.todayDeaths],
         },
       ],
     };
@@ -31,7 +31,7 @@ class PieChart extends React.Component{
             plugins: {
               title: {
                 display: true,
-                text: "Recovered to Death Ratio",
+                text: "Today Recovered to Today Death Ratio",
               },
               legend: {
                 display: true,

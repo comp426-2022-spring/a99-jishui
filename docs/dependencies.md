@@ -1,0 +1,22 @@
+## Dependency List
+
+Dependency | Version 
+--- | ---
+@emotion/react | 11.9.0
+@emotion/styled | 11.8.1
+@mui/material | 5.6.1
+@testing-library/jest-dom | 5.16.4
+@testing-library/react | 13.0.1
+@testing-library/user-event | 13.5.0
+better-sqlite3 | 7.5.1
+chart.js | 3.7.1
+firebase | 9.7.0
+graph.js | 1.21.1
+numeral | 2.0.6
+react | 18.1.0
+react-chartjs-2 | 4.1.0
+react-dom | 18.0.0
+react-helmet | 6.1.0
+react-router-dom | 6.3.0
+react-scripts | 5.0.1
+web-vitals | 2.1.4

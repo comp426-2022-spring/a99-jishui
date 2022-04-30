@@ -1,7 +1,8 @@
 ## David Pham - Backend Developer
 Focused work on backend design:
   1. Worked on combining frontend with backend Covid-19 API data.
-  2. Created documentation and planning notes.
+  2. Implemented graphs on main page
+  3. Created documentation and planning notes.
 
 
 ## Ferras Dahnoun - Frontend Developer
@@ -12,6 +13,7 @@ Focused work on frontend design:
 ## Stephen Zheng - Full-Stack Developer
 Worked on both frontend and backend:
   1. Worked on pulling in an API Covid-19 data
+  2. Created dependency list documentation
 
 
 ## Saketh Devareddy - Frontend Developer
