@@ -54,4 +54,5 @@ Things to talk about in DEMO video
 - Talk about what data we have, where we got it from, what data is on the charts, the data updates daily
 - Talk about login and sign up page
 - Talk about where we actually register (at the bottom of main page)
+- Run through a test of registering and and logging in - needs to be an actual email to register
 - What we need to work on - combining where we register/login and actually implementing on the correct pages.
