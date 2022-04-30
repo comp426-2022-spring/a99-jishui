@@ -8,7 +8,7 @@ function Data({ title, cases, total }){
                 <Typography className="dataBoxName" color="textSecondary">{title}</Typography>
             </CardContent>
 
-            <h2 className="Cases">Total Reported: {cases}</h2>
+            <h2 className="Cases">{cases}</h2>
 
             
         </Card>

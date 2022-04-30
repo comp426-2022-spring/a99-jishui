@@ -43,6 +43,7 @@
 .data_statistics {
   display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 
 body{
