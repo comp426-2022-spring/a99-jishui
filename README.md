@@ -29,11 +29,6 @@ Developed by:
 - Saketh Devareddy      -   [SakDev](https://github.com/SakDev)
 - Matthew Brightman     -   [mbrightman](https://github.com/mbrightman)
 
-We can link our GitHub accounts here later.
-
-
-**Left this stuff for reference.**
-
 ## First steps
 
 Other steps that you will need to take after your team has accepted the assignment:
