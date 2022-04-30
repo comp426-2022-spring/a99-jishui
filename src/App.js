@@ -1,5 +1,5 @@
 import "./App.css";
-import Data from "./datainfo";
+import Data from "./components/datainfo";
 import {
   FormControl,
   InputLabel,
@@ -50,7 +50,6 @@ class App extends Component {
               <a href="/login.html">Log In</a>
               <a href="/signup.html">Sign Up</a>
             </div>
-
 
           </div>
 
