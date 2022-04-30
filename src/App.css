@@ -27,10 +27,12 @@
 
 .charts{
   display:flex;
+  justify-content: space-between;
 }
 
 .BarChart{
-  width: 500px;
+  width: 800px;
+  
 }
 
 .data_statistics {
