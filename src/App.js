@@ -11,6 +11,8 @@ import {
 import LineGraph from "./graph.js";
 import React, { Component } from "react";
 import BarChart from "./components/BarChart";
+import Log from "./components/Log";
+import {BrowserRouter as Router, Routes, Route, NavLink, Link} from 'react-router-dom'
 import LineChart from "./components/LineChart";
 
 
@@ -47,10 +49,13 @@ class App extends Component {
           <div className="head">
             <h1>COVID-19 DASHBOARD</h1>
 
-            <div className="loginBox">
-              <a href="/login.html">Log In</a>
-              <a href="/signup.html">Sign Up</a>
-            </div>
+          <Router>
+            <Link to="/login" element={<Log/>}>Login</Link>
+            <Routes>
+                  <Route path="/login" element={<Log/>}/>
+            </Routes>
+            
+          </Router>
 
             <div className="box2">
               <FormControl className="dropdown_menu">
