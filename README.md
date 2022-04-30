@@ -48,3 +48,9 @@ Developed by:
 Other steps that you will need to take after your team has accepted the assignment:
 
 2. Edit this README.md file and use it as the main location of your technical documentation with links out to information contained under `/docs/`.
+Things to talk about in DEMO video
+- How to install it - cloning repo, npm install, npm start
+- Talk about what data we have, where we got it from, what data is on the charts, the data updates daily
+- Talk about login and sign up page
+- Talk about where we actually register (at the bottom of main page)
+- What we need to work on - combining where we register/login and actually implementing on the correct pages.
