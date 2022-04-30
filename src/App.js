@@ -45,6 +45,10 @@ class App extends Component {
           <div className="head">
             <h1>US COVID-19 DASHBOARD</h1>
 
+            <div className="loginBox">
+              <a href="/login.html">Log In</a>
+              <a href="/signup.html">Sign Up</a>
+            </div>
 
 
           </div>
