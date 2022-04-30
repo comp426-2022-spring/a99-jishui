@@ -49,17 +49,6 @@ class App extends Component {
               <a href="/signup.html">Sign Up</a>
             </div>
 
-            <div className="box2">
-              <FormControl className="dropdown_menu">
-                <InputLabel id="label_select">Select Option</InputLabel>
-                <Select variant="outlined">
-                  <MenuItem value="current_cases">Current Cases</MenuItem>
-                  <MenuItem value="deaths">Total Deaths</MenuItem>
-                  <MenuItem value="vaccinated">Total Vaccinated</MenuItem>
-                  <MenuItem value="hospitalized">Total Hospitalized</MenuItem>
-                </Select>
-              </FormControl>
-            </div>
           </div>
 
           <br />
@@ -67,27 +56,23 @@ class App extends Component {
 
           <div className="data_statistics">
             <Data
-              title="Coronavirus Cases"
+              title="Total Coronavirus Cases"
               cases={items.cases}
-              total={items.cases}
             ></Data>
 
             <Data
-              title="Recovered"
+              title="Total Recovered"
               cases={items.recovered}
-              total={items.recovered}
             ></Data>
 
             <Data
-              title="Active Cases"
+              title="Total Active Cases"
               cases={items.active}
-              total={items.active}
             ></Data>
 
             <Data
-              title="Deaths"
+              title="Total Deaths"
               cases={items.deaths}
-              total={items.deaths}
             ></Data>
           </div>
 
