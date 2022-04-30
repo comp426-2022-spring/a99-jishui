@@ -16,6 +16,7 @@ Focused work on frontend design:
 Worked on both frontend and backend:
   1. Worked on pulling in an API Covid-19 data
   2. Created dependency list documentation
+  3. Updated README.md documentation
 
 
 ## Saketh Devareddy - Frontend Developer
