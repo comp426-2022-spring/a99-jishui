@@ -28,7 +28,7 @@
 .charts{
   display:flex;
   height: 600px;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
 }
 
 .BarChart{
