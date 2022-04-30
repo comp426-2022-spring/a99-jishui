@@ -26,7 +26,7 @@ Developed by:
 - David Pham    -   [davpham](https://github.com/davpham)
 - Ferras Dahnoun    -   [fdahnoun](https://github.com/fdahnoun)
 - Stephen Zheng     -   [stzheng7](https://github.com/stzheng7)
-- Saketh Devareddy
+- Saketh Devareddy      -   [SakDev](https://github.com/SakDev)
 - Matthew Brightman     -   [mbrightman](https://github.com/mbrightman)
 
 We can link our GitHub accounts here later.
