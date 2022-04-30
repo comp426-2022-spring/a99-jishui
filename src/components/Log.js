@@ -93,6 +93,7 @@ const Log = () => {
           <br></br>
           <div>
             <input
+              type="password"
               placeholder="Password..."
               onChange={(event) => {
                 setRegPass(event)
@@ -116,6 +117,7 @@ const Log = () => {
           <br />
           <div>
             <input
+              type="password"
               placeholder="Password..."
               onChange={(event) => {
                 setLogPass(event)
