@@ -1,14 +1,7 @@
 import "./App.css";
 import Data from "./components/datainfo";
-import {
-  FormControl,
-  InputLabel,
-  MenuItem,
-  Select,
-} from "@mui/material";
 import React, { Component } from "react";
 import BarChart from "./components/BarChart";
-import LineChart from "./components/LineChart";
 import PieChart from "./components/PieChart";
 import Log from "./components/Log";
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
