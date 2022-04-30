@@ -12,7 +12,7 @@ the number of Active Cases, and the number of Deaths due to Coronavirus within t
 
 To start the website, please use `npm start` in a terminal, which will open up the app on on your `local host 3000`. 
 From there you will be able to see all of the available COVID-19 data.
-You can also create an account using our Login and Signup pages!
+You can also create an account using our Login and Signup pages (Currently a work-in-progress, the actual process is on the main page)!
 
 
 ## Documentation
