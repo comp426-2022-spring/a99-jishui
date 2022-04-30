@@ -1,6 +1,7 @@
 ## David Pham - Backend Developer
 Focused work on backend design:
-  1. Worked on combining frontend with backend Covid-19 API data
+  1. Worked on combining frontend with backend Covid-19 API data.
+  2. Created documentation and planning notes.
 
 
 ## Ferras Dahnoun - Frontend Developer
@@ -20,4 +21,5 @@ Focused work on frontend design:
 
 ## Matthew Brightman - Backend Developer
 Focused work on backend design:
-  1. Worked on creating database for users
+  1. Worked on creating database for users.
+  2. Created documentation and planning notes.
