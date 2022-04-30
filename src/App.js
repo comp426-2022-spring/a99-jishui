@@ -5,15 +5,17 @@ import {
   InputLabel,
   MenuItem,
   Select,
-  Card,
-  CardContent,
 } from "@mui/material";
-import LineGraph from "./graph.js";
 import React, { Component } from "react";
 import BarChart from "./components/BarChart";
+<<<<<<< HEAD
 import Log from "./components/Log";
 import {BrowserRouter as Router, Routes, Route, NavLink, Link} from 'react-router-dom'
+=======
+import PieChart from "./components/PieChart";
+>>>>>>> 0401a85af2d5705bba4a3f813564edb9c5c0dd0e
 import LineChart from "./components/LineChart";
+
 
 
 class App extends Component {
@@ -47,7 +49,7 @@ class App extends Component {
       return (
         <div className="app">
           <div className="head">
-            <h1>COVID-19 DASHBOARD</h1>
+            <h1>US COVID-19 DASHBOARD</h1>
 
           <Router>
             <Link to="/login" element={<Log/>}>Login</Link>
@@ -57,46 +59,36 @@ class App extends Component {
             
           </Router>
 
-            <div className="box2">
-              <FormControl className="dropdown_menu">
-                <InputLabel id="label_select">Select Option</InputLabel>
-                <Select variant="outlined">
-                  <MenuItem value="current_cases">Current Cases</MenuItem>
-                  <MenuItem value="deaths">Total Deaths</MenuItem>
-                  <MenuItem value="vaccinated">Total Vaccinated</MenuItem>
-                  <MenuItem value="hospitalized">Total Hospitalized</MenuItem>
-                </Select>
-              </FormControl>
-            </div>
           </div>
+
+          <br />
+          <br />
 
           <div className="data_statistics">
             <Data
-              title="Coronavirus Cases"
+              title="Total Coronavirus Cases"
               cases={items.cases}
-              total={items.cases}
             ></Data>
 
             <Data
-              title="Recovered"
+              title="Total Recovered"
               cases={items.recovered}
-              total={items.recovered}
             ></Data>
 
             <Data
-              title="Active Cases"
+              title="Total Active Cases"
               cases={items.active}
-              total={items.active}
             ></Data>
 
             <Data
-              title="Deaths"
+              title="Total Deaths"
               cases={items.deaths}
-              total={items.deaths}
             ></Data>
           </div>
 
-          
+          <br />
+          <br />
+
           <div className="charts">
             <BarChart data={information}/>
             <LineChart/>

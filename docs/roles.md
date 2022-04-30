@@ -21,5 +21,5 @@ Focused work on frontend design:
 
 ## Matthew Brightman - Backend Developer
 Focused work on backend design:
-  1. Worked on creating database for users.
+  1. Created the database for users.
   2. Created documentation and planning notes.
