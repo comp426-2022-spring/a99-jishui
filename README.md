@@ -20,6 +20,7 @@ You can also create an account using our Login and Signup pages!
 - [Group Roles](https://github.com/comp426-2022-spring/a99-jishui/blob/main/docs/roles.md)
 - [Planning Notes](https://github.com/comp426-2022-spring/a99-jishui/blob/main/docs/planning.md)
 - [Dependency List](https://github.com/comp426-2022-spring/a99-jishui/blob/main/docs/dependencies.md)
+- [Endpoints](https://github.com/comp426-2022-spring/a99-jishui/blob/main/docs/endpoints.md)
 
 
 ## Future Plans
