@@ -24,7 +24,7 @@ class PieChart extends React.Component{
     };
       
       return(
-        <div className="BarChart">
+        <div className="PieChart">
         <Pie
           data={data}
           options={{

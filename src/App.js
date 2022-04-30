@@ -8,9 +8,8 @@ import {
 } from "@mui/material";
 import React, { Component } from "react";
 import BarChart from "./components/BarChart";
-import PieChart from "./components/PieChart";
 import LineChart from "./components/LineChart";
-
+import PieChart from "./components/PieChart";
 
 
 class App extends Component {
@@ -80,10 +79,10 @@ class App extends Component {
 
           <br />
           <br />
-
+          
           <div className="charts">
             <BarChart data={information}/>
-            <LineChart/>
+            <PieChart/>
           </div>
 
 

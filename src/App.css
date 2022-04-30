@@ -32,12 +32,11 @@
 }
 
 .BarChart{
-  width: 800px;
+  width: 1000px;
 }
 
 .PieChart{
   width: 600px;
-  height: 600px;
 }
 
 .data_statistics {
