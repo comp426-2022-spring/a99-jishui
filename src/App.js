@@ -8,12 +8,9 @@ import {
 } from "@mui/material";
 import React, { Component } from "react";
 import BarChart from "./components/BarChart";
-import PieChart from "./components/PieChart";
 import LineChart from "./components/LineChart";
 import Log from "./components/Log";
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
-
-
 
 class App extends Component {
   constructor(props) {
@@ -48,13 +45,11 @@ class App extends Component {
           <div className="head">
             <h1>US COVID-19 DASHBOARD</h1>
 
-          <Router>
-            <Link to="/login" element={<Log/>}>Login</Link>
-            <Routes>
-                  <Route path="/login" element={<Log/>}/>
-            </Routes>
-            
-          </Router>
+            <div className="loginBox">
+              <a href="/login.html">Log In</a>
+              <a href="/signup.html">Sign Up</a>
+            </div>
+
 
           </div>
 
@@ -85,12 +80,19 @@ class App extends Component {
 
           <br />
           <br />
-
+          
           <div className="charts">
             <BarChart data={information}/>
             <LineChart/>
           </div>
 
+          <Router>
+            <Link to="/login" element={<Log/>}>Login</Link>
+            <Routes>
+                  <Route path="/login" element={<Log/>}/>
+            </Routes>
+            
+          </Router>
 
         </div>
       );
