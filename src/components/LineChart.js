@@ -7,7 +7,6 @@ class LineChart extends React.Component{
       super(props)
   }
   
-
   render(){
     let numbers = [
       100,
@@ -35,7 +34,7 @@ class LineChart extends React.Component{
             plugins: {
               title: {
                 display: true,
-                text: "Recovered to Death Ratio",
+                text: "Today Recovered to Today Death Ratio",
               },
               legend: {
                 display: true,

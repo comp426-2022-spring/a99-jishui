@@ -9,6 +9,7 @@ import {
 import React, { Component } from "react";
 import BarChart from "./components/BarChart";
 import LineChart from "./components/LineChart";
+import PieChart from "./components/PieChart";
 import Log from "./components/Log";
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 
@@ -83,7 +84,7 @@ class App extends Component {
           
           <div className="charts">
             <BarChart data={information}/>
-            <LineChart/>
+            <PieChart data={information}/>
           </div>
 
           <Router>

@@ -14,14 +14,14 @@ class BarChart extends React.Component{
       labels: ["Information"],
       datasets: [
         {
-          label: "Recovered",
+          label: "Total Recovered",
           backgroundColor: "rgba(75,192,192,1)",
           borderColor: "rgba(0,0,0,1)",
           borderWidth: 2,
           data: [this.props.data.recovered]
         },
         {
-          label: "Deceased",
+          label: "Total Deaths",
           backgroundColor: "rgba(255,0,0,1)",
           borderColor: "rgba(0,0,0,1)",
           borderWidth: 2,
@@ -38,7 +38,7 @@ class BarChart extends React.Component{
             plugins: {
               title: {
                 display: true,
-                text: "Recovered to Death Ratio",
+                text: "Total Recovered to Total Death Ratio",
               },
               legend: {
                 display: true,
