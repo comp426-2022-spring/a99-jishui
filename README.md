@@ -44,10 +44,12 @@ web-vitals | 2.1.4
 ## Future Plans
 
 
+
 ## Acknowledgements
 
-[disease.sh](https://disease.sh/)
+[disease.sh](https://disease.sh/)\
 John D. Martin III
+
 
 ## Developers
 
