@@ -23,7 +23,7 @@ You will also have the option to make an account!
 
 Developed by:
 
-- David Pham
+- David Pham    -   [davpham](https://github.com/davpham)
 - Ferras Dahnoun
 - Stephen Zheng
 - Saketh Devareddy
