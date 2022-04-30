@@ -8,13 +8,10 @@ import {
 } from "@mui/material";
 import React, { Component } from "react";
 import BarChart from "./components/BarChart";
-<<<<<<< HEAD
-import Log from "./components/Log";
-import {BrowserRouter as Router, Routes, Route, NavLink, Link} from 'react-router-dom'
-=======
 import PieChart from "./components/PieChart";
->>>>>>> 0401a85af2d5705bba4a3f813564edb9c5c0dd0e
 import LineChart from "./components/LineChart";
+import Log from "./components/Log";
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 
 
 
