@@ -3,6 +3,7 @@ Focused work on backend design:
   1. Worked on combining frontend with backend Covid-19 API data.
   2. Implemented graphs on main page
   3. Created documentation and planning notes.
+  4. Documentation Manager
 
 
 ## Ferras Dahnoun - Frontend Developer
@@ -10,6 +11,7 @@ Focused work on frontend design:
   1. Created main page of website
   2. Worked on prototype of styling sign up and log in pages.
   3. Worked on creating the login and signup database form using firebase.
+  4. Review Manager
 
 
 ## Stephen Zheng - Full-Stack Developer
@@ -17,14 +19,17 @@ Worked on both frontend and backend:
   1. Worked on pulling in an API Covid-19 data
   2. Created dependency list documentation
   3. Updated README.md documentation
+  4. Release Manager
 
 
 ## Saketh Devareddy - Frontend Developer
 Focused work on frontend design:
   1. Created both login and signup page of website
+  2. Plan Manager
 
 
 ## Matthew Brightman - Backend Developer
 Focused work on backend design:
   1. Created the database for users.
   2. Created documentation and planning notes.
+  3. Project Manager
