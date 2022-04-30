@@ -5,6 +5,8 @@
 Our COVID-19 information dashboard is a web application that shows general COVID-19 data for the entirety of the United States. This data includes the number of Cases, the number of Recoveries, 
 the number of Active Cases, and the number of Deaths due to Coronavirus within the United States. The website also has a bar graph and a pie chart that display the Recovered Cases to Deaths ratio and the deaths and recovered that occurred today.
 
+- [Demo Video](link)
+
 
 ## How To Use the Dashboard
 
