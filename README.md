@@ -16,7 +16,8 @@ Run `npm install` when you enter the website directory.\
 To start the website, use `npm start` in the root website directory, which will start the app at `localhost:3000/`. 
 From there you will be able to view the available COVID-19 data.\
 
-You can also create an account using our Login and Signup pages (Currently a work-in-progress, the actual process is on the main page)!
+You can also create an account using our Login and Signup pages (Currently a work-in-progress, the actual process is on the main page)! 
+When registering an account on the main page, please use a valid email!
 
 
 ## Documentation
